@@ -1,0 +1,17 @@
+html {
+  font-size: 18px;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  background-color: #0f1424;
+}
+/*# sourceMappingURL=style.css.map */

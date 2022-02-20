@@ -19,6 +19,7 @@ $Pale-Blue: hsl(236, 100%, 87%);
 
 html {
     font-size: 18px;
+    color: white;
 }
 
 *{
@@ -29,4 +30,6 @@ html {
 
 body{
     font-family: 'Rubik', sans-serif;
+    background-color: $Very-dark-blue;
 }
+
