@@ -31,5 +31,23 @@ html {
 body{
     font-family: 'Rubik', sans-serif;
     background-color: $Very-dark-blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
 }
 
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-card{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    background-color: red;
+}
