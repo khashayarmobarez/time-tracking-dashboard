@@ -45,9 +45,51 @@ body{
     justify-content: center;
 }
 
+
+
 .profile-card{
     display: flex;
     flex-direction: column;
-    width: 320px;
-    background-color: red;
+    width: 310px;
+    background-color: $Dark-blue;
+    align-items: center;
+    height: 180px;
+    
+    .user-introduction {
+        background-color: $Violet;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 120px;
+        align-items: center;
+        justify-content: space-evenly;
+       
+        img{
+            width: 70px;
+            height: 70px;
+        }
+
+        .intro-text{
+            p{
+                font-size: 16px;
+                font-weight: 300;
+            }
+
+            h1{
+                font-weight: 300;
+                font-size: 28px;
+            }
+        }
+    }
+
+    .buttons{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
 }
+
