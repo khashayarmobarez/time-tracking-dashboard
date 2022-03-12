@@ -110,8 +110,9 @@ body{
     }
 }
 
+
+
 .card-stats{
-    background-color: black;
     display: flex;
     flex-direction: column;
     width: 310px;
@@ -119,6 +120,8 @@ body{
     border-radius: 15px;
     height: 150px;
     justify-content: flex-end;
+    
+
 
     .data-stats{
         display: flex;
@@ -144,6 +147,15 @@ body{
         width: 90%;
     }
 
+    .three-points{
+        background-color: rgba(0,0,0, 0);
+        border: 0;
+        color: white;
+        opacity: 0.3;
+        font-size: 28px;
+        margin: -10px 0 0px 0;
+    }
+
     .latest-record {
         font-size: 28px;
         font-weight: 100;
@@ -153,4 +165,48 @@ body{
         font-size:14px;
         opacity: 50%;
     }
+}
+
+.work-card{
+    background-image: url("/images/icon-work.svg");
+    background-color: $Soft-orange;
+    background-repeat: no-repeat;
+    background-position: 92% -10%;
+}
+
+.play-card{
+    background-image: url("/images/icon-play.svg");
+    background-color: $Soft-blue;
+    background-repeat: no-repeat;
+    background-position: 92% -10%;
+}
+
+.study-card{
+    background-image: url("/images/icon-study.svg");
+    background-color: $Light-red;
+    background-repeat: no-repeat;
+    background-position: 92% -10%;
+}
+
+.exercise-card{
+    background-image: url("/images/icon-exercise.svg");
+    background-color: $Lime-green;
+    background-repeat: no-repeat;
+    background-position: 92% -5%;
+
+}
+
+.social-card{
+    background-image: url("/images/icon-social.svg");
+    background-color: $Violet;
+    background-repeat: no-repeat;
+    background-position: 92% -5%;
+
+}
+
+.self-care-card{
+    background-image: url("/images/icon-self-care.svg");
+    background-color: $Soft-orange;
+    background-repeat: no-repeat;
+    background-position: 92% -10%;
 }
